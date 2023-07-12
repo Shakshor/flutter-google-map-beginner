@@ -107,9 +107,22 @@ class _HomeScreenStateState extends State<HomeScreenState> {
 
 
         // floating action button
+        // move to new location
         floatingActionButton: FloatingActionButton(
-          child: const Icon(Icons.location_city_outlined),
+          child: const Icon(Icons.location_searching_rounded),
+
           onPressed: () async {
+
+            GoogleMapController controller = await  _controller.future;
+            controller.animateCamera(CameraUpdate.newCameraPosition(
+                const CameraPosition(
+                    target: LatLng(35.652832, 139.839478),
+                    zoom: 14,
+                ),
+              )
+            );
+
+
 
           },
         ),
