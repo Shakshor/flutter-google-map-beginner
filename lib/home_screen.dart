@@ -119,8 +119,7 @@ class _HomeScreenStateState extends State<HomeScreenState> {
                     target: LatLng(35.652832, 139.839478),
                     zoom: 14,
                 ),
-              )
-            );
+              ));
 
 
 
