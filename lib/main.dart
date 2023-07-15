@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_beginner/convert_latlang_to_address.dart';
+import 'package:google_maps_beginner/google_places_api_screen.dart';
 import 'package:google_maps_beginner/home_screen.dart';
 import 'package:google_maps_beginner/user_current_location.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.blue,
 
       ),
-      home: const GetUserCurrentLocationScreen(),
+      home: const GooglePlacesApiScreen(),
     );
   }
 }

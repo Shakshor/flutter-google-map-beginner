@@ -36,8 +36,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_maps_flutter: ^2.3.1
-  geocoding: ^2.1.0
+  geocoding: ^2.1.0 #convert latlag to address or vice-versa
   geolocator: ^9.0.2 #access_current_location
+  http: ^1.1.0  #fetch app
+  uuid: ^3.0.7  #get device id
 
 
 dev_dependencies:
