@@ -46,7 +46,7 @@ class _HomeScreenStateState extends State<HomeScreenState> {
         )
     ),
 
-    // second location -2
+    // third location -3
     Marker(
         markerId: MarkerId('3'),
         position: LatLng(23.78549, 90.364763),

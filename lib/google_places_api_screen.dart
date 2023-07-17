@@ -85,7 +85,7 @@ class _GooglePlacesApiScreenState extends State<GooglePlacesApiScreen> {
     print(data);
 
 
-
+    // status code
     if(response.statusCode == 200){
 
       setState(() {
@@ -95,12 +95,6 @@ class _GooglePlacesApiScreenState extends State<GooglePlacesApiScreen> {
     } else{
       throw Exception('Failed to load data');
     }
-
-
-
-
-
-
 
 
   }
