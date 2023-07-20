@@ -1,8 +1,11 @@
+import 'package:custom_info_window/custom_info_window.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_beginner/convert_latlang_to_address.dart';
+import 'package:google_maps_beginner/custom_marker_info_window.dart';
 import 'package:google_maps_beginner/custom_marker_screen.dart';
 import 'package:google_maps_beginner/google_places_api_screen.dart';
 import 'package:google_maps_beginner/home_screen.dart';
+import 'package:google_maps_beginner/polygone_screen.dart';
 import 'package:google_maps_beginner/user_current_location.dart';
 
 void main() {
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.blue,
 
       ),
-      home: const CustomMarkerScreen(),
+      home: const PolygoneScreen(),
     );
   }
 }
